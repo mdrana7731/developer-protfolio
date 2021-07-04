@@ -1,0 +1,32 @@
+body {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  margin: 0;
+}
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.kamrul {
+  color: orange;
+}
+#fast-section {
+  display: flex;
+  background-image: url(../images/top-banner.png);
+  background-repeat: no-repeat;
+}
+
+.half-width {
+  width: 50%;
+  padding-left: 2%;
+}
+.hier-btn {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  padding: 10px 40px;
+  background-image: linear-gradient(lightsalmon, tomato);
+}
+.half-width img {
+  width: 100%;
+}
