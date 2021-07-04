@@ -10,7 +10,7 @@ h1 {
 .kamrul {
   color: orange;
 }
-section {
+.flexbol-section {
   display: flex;
   margin-bottom: 80px;
 }
@@ -23,6 +23,7 @@ section {
   background-repeat: no-repeat;
   background-position: right;
 }
+
 #dream-big .half-width p {
   margin-bottom: 40px;
 }
@@ -39,4 +40,37 @@ section {
 }
 .half-width img {
   width: 100%;
+}
+#exp-section {
+  background-image: url(../images/exp-bg.png);
+  background-position: left;
+  background-repeat: no-repeat;
+}
+.exp-section-show {
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 3%;
+  box-shadow: 10px 10px 40px gray;
+}
+.show {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, blue, cyan);
+  border-image-slice: 1;
+}
+.full-stack-show {
+  border-left: 7px solid;
+  border-image: linear-gradient(purple, tomato);
+  border-image-slice: 1;
+}
+.exp-section-show h2 {
+  font-size: 39px;
+}
+.exp-section-show h4 {
+  color: orange;
+  margin-top: 0;
+}
+footer p {
+  margin-top: 30px;
+  text-align: center;
 }
